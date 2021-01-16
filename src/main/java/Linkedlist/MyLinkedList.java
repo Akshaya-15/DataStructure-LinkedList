@@ -38,6 +38,13 @@ public class MyLinkedList {
         newNode.setNext(tempNode);
 
     }
+    public void pop() {
+        INode tempNode =this.head;
+        this.head=head.getNext();
+    }
+
+
 }
+
 
 
